@@ -15,7 +15,7 @@
   <h1>{heading}</h1>
   <p>
     Rent <span>any</span> <span class="circle-letter">P</span> <span>Proof Collective</span> NFT for <span>1 day</span>
-    for <span>0.0.5 ETH</span>
+    for <span>0.05 ETH</span>
   </p>
 </div>
 
