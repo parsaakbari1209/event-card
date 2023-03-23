@@ -2,7 +2,7 @@
   import Card from '../lib/Card.svelte'
   const cards = [
     {
-      heading: 'Expecting an airdrop this summer Board Apache and other stuff...',
+      heading: 'Expecting an airdrop this summer Bored Ape and other stuff...',
       styles: { background: '#44eab1', rotation: '6deg', translationX: '0px', translationY: '-86px' },
     },
     {
