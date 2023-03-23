@@ -26,9 +26,9 @@
     border-radius: 50%;
     box-sizing: border-box;
     display: flex;
-    height: 22px;
+    height: 20px;
     justify-content: center;
-    width: 22px;
+    width: 20px;
   }
   div {
     background-color: var(--background);
@@ -36,15 +36,15 @@
     display: flex;
     flex-direction: column;
     font-family: Arial;
-    height: 150px;
+    height: 120px;
     justify-content: space-between;
     position: absolute;
     transform: rotate(var(--rotation)) translate(var(--translationX), var(--translationY));
-    width: 400px;
+    width: 300px;
   }
   h1 {
     color: #333;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     height: 30px;
     margin: 10px;
@@ -52,7 +52,7 @@
   p {
     color: #333;
     display: flex;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     height: 20px;
     justify-content: space-around;
@@ -60,5 +60,23 @@
   }
   span {
     color: #fff;
+  }
+  @media screen and (min-width: 500px) {
+    .circle-letter {
+      height: 22px;
+      width: 22px;
+    }
+    div {
+      height: 150px;
+      width: 400px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+    }
   }
 </style>
